@@ -61,7 +61,7 @@
   padding-bottom: 5%;
   padding-left: 10%;
   padding-right: 20%;
-  padding-top: 20%;
+  padding-top: 10%;
   font-size: 24px;
   font-weight: bolder
 }
@@ -97,7 +97,7 @@ input:focus {
 }
 
 #createAccountOrLogIn {
-  padding-top: 10%;
+  padding-top: 5%;
   padding-left: 10%
 }
 
