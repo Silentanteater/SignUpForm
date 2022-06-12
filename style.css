@@ -1,0 +1,18 @@
+:root{--margin:10%;
+background-color:black}
+#backGround{width:100vw;  display:flex; justify-content:center; align-items:center; background-color:black}
+#container {display:flex; width:80%; height:100vh; background-color:green; overflow:auto}
+#leftSide  {flex:1 1 calc(100%/3); width:calc(100%/3); background-image:url(https://img.freepik.com/free-vector/natural-background-with-realistic-leaves_52683-12799.jpg?w=1380&t=st=1655009524~exp=1655010124~hmac=f9d6fc30412ce68846852b7844d8e006b6bf60a747ba40a987cbc701ec2ed983)}
+#rightSide  {display:flex; flex-direction:column; flex:1 1 calc(200%/3); width:calc(200%/3); background-color: hsl(140, 48%, 235%); }
+#form {display:flex; flex-direction:column; height:33vh; background-color:hsl(160, 0%, 240%);box-shadow: 2px 2px 2px lightgrey; }
+#formHeader{padding-left:10%;font-size:24px; font-weight:bolder}
+#formColumns{display:flex;padding-left:10%; gap:var(--margin); justify-content:start}
+.formColumn{display:flex; flex-direction:column;  }
+#description{height:33vh;padding-left:10%; padding-top:20%; font-size:24px; font-weight:bolder}
+label{font-size:10px; font-weight:bold; padding-top:5%}
+button{background-color:hsl(82, 142%, 28%)}
+a{text-decoration:none; color:hsl(82, 142%, 28%)}
+input {border-radius:4px; border:1px solid #E5E7EB; flex:0 1 auto}
+input:focus {outline:1px solid blue; box-shadow: 2px 2px 2px grey; }
+#createAccountOrLogIn{padding-top:10%; padding-left:10%}
+input:invalid {outline:1px solid red;}
