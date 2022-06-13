@@ -1,8 +1,12 @@
+@font-face {font-family: KdamThmorProRegular;
+  src: url(KdamThmorPro-Regular.ttf)}
+  
 :root {
   --margin: 10%;
   background-color: black;
   display: flex;
-  justify-content: center
+  justify-content: center;
+    font-family:KdamThmorProRegular
 }
 
 
